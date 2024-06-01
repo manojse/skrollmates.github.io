@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Message Helper Extension</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #00a884;
+            color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header img {
+            width: 100px;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        .introduction {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .introduction p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .feature {
+            background-color: #fff;
+            width: 45%;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+        .feature h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #00a884;
+        }
+        .feature p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #666;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+        @media (max-width: 768px) {
+            .feature {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="your-extension-image-url.jpg" alt="WhatsApp Message Helper Extension">
+            <h1>WhatsApp Message Helper</h1>
+        </div>
+        <div class="introduction">
+            <p>Welcome to the WhatsApp Message Helper Extension! Enhance your WhatsApp experience with our Chrome extension that offers convenient features to hide messages and start conversations without needing to save the mobile number in your contact list.</p>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <h2>Hide Messages</h2>
+                <p>Easily hide your sensitive messages from prying eyes with a single click.</p>
+            </div>
+            <div class="feature">
+                <h2>Quick Start Conversations</h2>
+                <p>Start a WhatsApp chat without the hassle of saving the mobile number in your contacts. Just enter the number and start chatting instantly.</p>
+            </div>
+            <div class="feature">
+                <h2>User-Friendly Interface</h2>
+                <p>Simple and intuitive design to make your WhatsApp experience smoother.</p>
+            </div>
+            <div class="feature">
+                <h2>Secure</h2>
+                <p>Your privacy is our priority. The extension operates securely without accessing or storing your data.</p>
+            </div>
+            <div class="feature">
+                <h2>Free to Use</h2>
+                <p>Enjoy all these features without any cost.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
